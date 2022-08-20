@@ -6,7 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
-      fail-fast: true
       matrix:
         node: ['16']
     steps:
